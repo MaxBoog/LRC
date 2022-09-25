@@ -3,9 +3,22 @@ class CustomNav extends HTMLElement {
     super();
     this.innerHTML = `
         
-    <nav>
-      
-    </nav>
+   
+      <ul class="nav fixed-bottom justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/releases.html">Releases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Podcasts.html">Podcasts</a>
+        </li>
+    </ul>
+    
       
       `;
   }

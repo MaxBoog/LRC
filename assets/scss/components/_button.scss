@@ -1,35 +1,64 @@
 .btn-1 {
   padding: 0.5em;
-  margin-left: -0.5em;
+  border: 1px solid $black;
+  border-radius: 0px;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.btn-play {
+  font-size: $font-3xl;
+}
+
+.scroll-top {
+  position: fixed;
+  color: $black;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  outline: none;
+  background-color: transparent;
   border: none;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-
-  &:before,
-  &:after {
-    position: absolute;
-    content: "";
-    border-bottom: 3px solid $color-primary;
-    border-radius: 1em;
-    bottom: 0.3em;
-    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+  padding: 15px;
+  i {
+    font-size: $font-2xl;
   }
+}
 
-  &:before {
-    width: 1em;
-    transform-origin: left;
+.scroll-down-button {
+  position: absolute;
+  top: 15%;
+  left: 90%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: none;
+}
+
+.bounce-3 {
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(0);
   }
-
-  &:after {
-    width: 82%;
-    left: 1em;
-    transform: translateX(110%);
+  30% {
+    transform: translateY(-10px);
   }
-
-  &:hover:before {
-    transform: scaleX(0.3);
+  50% {
+    transform: translateY(0);
   }
+  100% {
+    transform: translateY(0);
+  }
+}
 
-  &:hover:after {
-    transform: translateX(0);
+@media (min-width: 576px) {
+  .scroll-down-button {
+    display: block;
   }
 }

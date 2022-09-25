@@ -6,28 +6,23 @@
 // fonts
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rubik Maze";
-  src: url("/assets/fonts/RubikMaze-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Bungee Shade";
-  src: url("/assets/fonts/BungeeShade-Regular.ttf") format("truetype");
+  font-family: "Open-sans";
+  src: url("/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf")
+    format("truetype");
   font-display: swap;
 }
 
-$font-primary: "Montserrat", sans-serif;
-$font-secondary: "Rubik Maze", serif;
-$font-tertiary: "Bungee Shade", serif;
+@font-face {
+  font-family: "Courier";
+  src: url("/assets/fonts/CourierPrime-Regular.ttf") format("truetype");
+  font-display: swap;
+}
 
+$font-primary: "Open-sans";
+$font-secondary: "Courier";
 // font sizes
 
-$font-xs: 0.75rem;
+$font-xs: 0.7rem;
 $font-sm: 0.875rem;
 $font-base: 1rem;
 $font-lg: 1.125rem;
@@ -47,6 +42,6 @@ $color-primary: #eb512b;
 
 $white: #ffffff;
 $off-white: #fffdf1;
-$black: #0a0a0a;
+$black: #000000;
 $grey: #9ca3af;
 $light-grey: #e9ecef;

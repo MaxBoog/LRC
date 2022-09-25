@@ -1,18 +1,3 @@
-<!-- 
-    Menu link
-        LRC01 tm LRC03
-        LRCDIGI01
-    Landing page met logo
-        Alle nieuwe releases opgelijnd
-    naar beneden scrollen voor contact
-        logo
-        en links naar youtube soundclound bandcamp
-    voor elk label een individuele pagina
-        
-
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,194 +8,342 @@
     <link rel="stylesheet" href="/assets/css/master.css" />
   </head>
   <body>
-    
     <!-- NAVIGATION -->
 
-    <nav id="navbar" class="navbar fixed-top">
+    <div class="parallax">
+      <a class="scroll-down-button bounce-3" href="#about">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-chevron-double-down"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </a>
+    </div>
+    <offcanvas-nav></offcanvas-nav>
+
+    <div id="about" class="container-fluid border-bottom border-top">
+
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"
-          ><img src="/assets/images/LRC-small.jpg" alt="Lazy Reflex Complex"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <i class="bi bi-text-right"></i>
-        </button>
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <div></div>
-            <h3 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Lazy Reflex Complex
-            </h3>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link btn-1 active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-1" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-1" href="#">Contact</a>
-              </li>
+          <div class="col-lg-3 border-right">
+            <img
+              src="assets/images/hq/LRC_Links_uitgelijnd.svg"
+              alt="Lazy Reflex Complex"
+              width="300"
+              class="py-3 tracking-in-expand"
+            />
+
           </div>
-        </div>
-      </div>
-    </nav>
+          <div class="col-lg-6">
+            <h7>Contact</h7>
+            <p>
+              <a href="mailto:contact@lazyreflexcomplex.com"
+                >contact@lazyreflexcomplex.com</a>
+            </p>
+            <h7>Orders</h7>
+            <p>
+              <a href="mailto:orders@lazyreflexcomplex.com"
+                >orders@lazyreflexcomplex.com</a>
+            </p>
+              <h7>Music</h7>
+            <p>
+              <a href="#"
+                ><img
+                  src="/assets/images/bandcamp-button-square-black-64.png"
+                  alt="Bandcamp"
+                  width="40px"
+                  class="rounded"
+              /></a>
+              <a href="#"
+                ><img
+                  src="/assets/images/icons8-soundcloud.svg"
+                  alt="Soundcloud"
+                  width="40px"
+              /></a>
+            </p>
+              <h7>Socials</h7>
+              <p>
+                  instagram icon<br>
+                  facebook item
+              </p>
+              <p>
 
-    <!-- HEADER -->
+              </p>
 
-    <header class="container">
-      <div class="row d-flex justify-content-between align-items-center shadow-lg">
-        <div class="col-lg-8">
-          <img
-            src="/assets/images/LRC-linksuitgelijnd.jpeg"
-            alt="Lazy Reflex Complex"
-            width="300"
-            class="pt-5 tracking-in-expand"
-          />
-          <p class="lead">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-            quae distinctio rerum. Vero perferendis aliquam reiciendis fugit.
-            Labore expedita soluta assumenda dolor, facere veniam temporibus
-            quaerat modi commodi ut rem voluptates! Aliquid fuga corporis minus
-            vero, voluptas nemo neque iusto saepe officiis, accusamus recusandae
-            perspiciatis maiores repudiandae velit nulla nisi!
-          </p>
-          <a type="button" href="#more" class="btn btn-lg btn-1 fw-bold my-4">
-            See more
-          </a>
-        </div>
-        <div class="col-lg-4 px-0 overflow-hidden">
-          <img
-            src="/assets/images/LRC-1.jpeg"
-            alt="See more of Lazy Reflex Complex"
-            width="720"
-            class="rounded-0 d-none d-lg-block"
-          />
-        </div>
-      </div>
-    </header>
+          </div>
+    </div>
 
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col p-0 mt-5">
-          <h2 class="d-inline shadow">Newest releases!</h2>
+
+      <div class="container">
+        <div class="row justify-content-center">
+<!--          <div class="col-sm-7 text-center py-5">-->
+<!--            <img class="img-fluid" src="/assets/images/LRC-small.jpg" alt="" />-->
+<!--            <p class="text-center">-->
+<!--              We are Lazy Reflex Complex. We stand for quality techno. Scroll-->
+<!--              down for more and listen to our newest releases on Bandcamp.-->
+<!--            </p>-->
+<!--            <p>-->
+<!--              <svg-->
+<!--                xmlns="http://www.w3.org/2000/svg"-->
+<!--                width="16"-->
+<!--                height="16"-->
+<!--                fill="currentColor"-->
+<!--                class="bi bi-soundwave"-->
+<!--                viewBox="0 0 16 16"-->
+<!--              >-->
+<!--                <path-->
+<!--                  fill-rule="evenodd"-->
+<!--                  d="M8.5 2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5zm-2 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm-6 1.5A.5.5 0 0 1 5 6v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm8 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm-10 1A.5.5 0 0 1 3 7v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5zm12 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5z"-->
+<!--                />-->
+<!--              </svg>-->
+<!--            </p>-->
+<!--          </div>-->
+          <div class="col-sm-12 text-center"><h3>Releases</h3></div>
+          <div class="col-sm-7 text-left"><h7>LRC01 // Jeroen Search & 543ff</h7></div>
+          <div class="col-sm-7">
+            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1503233047%3Fsecret_token%3Ds-SLNEXqPf7DC&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lazy-reflex-complex" title="Lazy Reflex Complex" target="_blank" style="color: #cccccc; text-decoration: none;">Lazy Reflex Complex</a> · <a href="https://soundcloud.com/lazy-reflex-complex/sets/lrc01-jeroen-search-543ff/s-SLNEXqPf7DC" title="LRC01 // Jeroen Search &amp; 543ff" target="_blank" style="color: #cccccc; text-decoration: none;">LRC01 // Jeroen Search &amp; 543ff</a></div>
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=587345545/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/ma-haiping-molecular-xx-8"
+                >Ma Haiping - Molecular XX 8 by Ma Haiping</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=591003080/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-2-molecular-31"
+                >Marco Lenzi - Taboo Remixes Vol.2 [Molecular 31] by Marco
+                Lenzi, Inigo Kennedy, Exos, Lory D, Hiroshi Watanabe</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3371958782/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/d-func-bio-structures-molecular-29"
+                >d_func. - Bio Structures [Molecular 29] by d_func.</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=461783223/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/jeroen-search-many-ways-to-go-molecular-3-ltd"
+                >Jeroen Search - Many Ways To Go [Molecular 3 LTD] by Jeroen
+                Search</a
+              ></iframe
+            >
+          </div>
+                  <div class="col-sm-12 text-center"><h3>Ambient</h3></div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=115969134/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/philippe-petit-molecular-xx-6"
+                >Philippe Petit - Molecular XX 6 by Philippe Petit</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4069104676/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/linear-system-guanine-molecular-28"
+                >Linear System - Guanine [Molecular 28] by Linear System</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3952747847/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-molecular-24"
+                >Marco Lenz – Taboo [Molecular 24] by Marco Lenzi, Oliver Ho</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-12 text-center"><h3>Podcasts</h3></div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=587345545/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/ma-haiping-molecular-xx-8"
+                >Ma Haiping - Molecular XX 8 by Ma Haiping</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=591003080/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-2-molecular-31"
+                >Marco Lenzi - Taboo Remixes Vol.2 [Molecular 31] by Marco
+                Lenzi, Inigo Kennedy, Exos, Lory D, Hiroshi Watanabe</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=4207784607/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/marco-lenzi-taboo-remixes-vol-3-molecular-32"
+                >Marco Lenzi - Taboo Remixes Vol.3 [Molecular 32] by Marco
+                Lenzi, Gotshell, Leo Anibaldi, Anderson Noise, Gary Martin
+                Technotika</a
+              ></iframe
+            >
+          </div>
+          <div class="col-sm-7">
+            <iframe
+              style="border: 0; width: 100%; height: 42px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=3371958782/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+              seamless
+              ><a
+                href="https://moleculartechno.bandcamp.com/album/d-func-bio-structures-molecular-29"
+                >d_func. - Bio Structures [Molecular 29] by d_func.</a
+              ></iframe
+            >
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- NEWEST RELEASES -->
 
-    <section id="more" class="container mt-5 pt-5">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 gx-sm-5">
+    <div id="about" class="container-fluid border-bottom border-top">
 
-
-        <!-- CARD 1 -->
-        <div class="col">
-          <div class="card text-bg-light">
-            <img
-              src="/assets/images/LRC-1.jpeg"
-              class="card-img"
-              alt="LRC's Newest Release!"
-            />
-            <div
-              class="card-img-overlay d-flex flex-column justify-content-between"
-            >
-              <h3 class="card-title">LRC01</h3>
-              <p class="flag">New</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="col">
-          <div class="card text-bg-light">
-            <img
-              src="/assets/images/LRC-album-3.jpeg"
-              class="card-img"
-              alt="LRC's Newest Release!"
-            />
-            <div
-              class="card-img-overlay d-flex flex-column justify-content-between"
-            >
-              <h3 class="card-title">LRC02</h3>
-              <p class="flag">New</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="col">
-          <div class="card text-bg-light">
-            <img
-              src="/assets/images/LRC-album-2.jpeg"
-              class="card-img"
-              alt="LRC's Newest Release!"
-            />
-            <div
-              class="card-img-overlay d-flex flex-column justify-content-between"
-            >
-              <h3 class="card-title">LRC03</h3>
-              <p class="flag">New</p>
-            </div>
-          </div>
-        </div>
-         <!-- CARD END -->
-
-        <!-- CARD 3 -->
-        <div class="col">
-          <div class="card text-bg-light">
-            <img
-              src="/assets/images/LRC-album-2.jpeg"
-              class="card-img"
-              alt="LRC's Newest Release!"
-            />
-            <div
-              class="card-img-overlay d-flex flex-column justify-content-between"
-            >
-              <h3 class="card-title">LRC03</h3>
-              <p class="flag">New</p>
-            </div>
-          </div>
-        </div>
-         <!-- CARD END -->
-      </div>
-    </section>
-
-    <footer class="container-fluid">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-lg-3">
-              <div class="col">
-                  <h3>Lazy Reflex Complex</h3>
-                  <p><a href="#">Link</a></p>
-                  <p><a href="#">Link</a></p>
-                  <p><a href="#">Link</a></p>
-              </div>
-              <div class="col"></div>
-              <div class="col"></div>
-            </div>
-        </div>
-    </footer>
+    </div>
+    <div class="parallax">
+      <a class="scroll-down-button bounce-3" href="#about">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-chevron-double-down"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </a>
+    </div>
+    <custom-footer></custom-footer>
 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/customNav.js"></script>
+    <script src="/assets/js/offcanvasNavbar.js"></script>
     <script src="/assets/js/customFooter.js"></script>
     <script src="/assets/js/scripts-dist.js"></script>
   </body>
