@@ -10,12 +10,14 @@ html {
 
 .parallax {
   font-family: $font-primary;
-  height: 20rem;
+
+  height: 100vh;
   width: 100vw;
-  background: url("/assets/images/hq/LRC_full_effect.svg");
-  background-size: cover;
+  background: url("/assets/images/LRC_full_effect.svg");
+  background-size: contain;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+
   background-attachment: scroll;
 }
 
@@ -68,17 +70,20 @@ h3 {
   }
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 756px) {
+
   .border-right {
     border-right: 1px solid $black;
   }
 
   .parallax {
     font-family: $font-primary;
-    min-height: 100vh;
+
+    height: 100vh;
     width: 100%;
-    background: url("/assets/images/hq/LRC_full_effect.svg");
-//     background-size: contain;
+    background: url("/assets/images/LRC_full_effect.svg");
+
     background-size: 600px 200px;
     background-position: center;
     background-repeat: no-repeat;

@@ -5,7 +5,9 @@
   background-color: $black;
 
   .nav-link {
-    color: $white;
+
+    color: $black;
+
     font-size: $font-xs;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
@@ -22,7 +24,9 @@
     background-color: $black;
 
     .nav-link {
-      color: $white;
+
+      color: $black;
+
       font-size: $font-base;
       border-top: 2px solid transparent;
       border-bottom: 2px solid transparent;
@@ -60,9 +64,27 @@
 
   .offcanvas {
     // width: 100vw;
+
+
     transition: ease-in-out 0.3s;
-    background-color: $black;
-    color: $white;
+    background-color: $white;
+    color: $black;
+
+    .btn-close {
+      margin-right: 1px;
+      color: $black;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      &:active {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
 
     .btn-close {
       margin-right: 1px;
@@ -92,8 +114,10 @@
         }
         .nav-link {
           padding: 0;
-          color: $white;
-          font-size: $font-xl;
+
+          color: $black;
+          font-size: $font-base;
+
           &:hover {
             opacity: 0.75;
           }
