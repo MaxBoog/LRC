@@ -10,10 +10,10 @@ html {
 
 .parallax {
   font-family: $font-primary;
-  height: 20rem;
-  width: 100vw;
+  height: auto;
+  width: 100%;
   background: url("/assets/images/LRC-2.jpeg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: repeat;
   background-attachment: scroll;
