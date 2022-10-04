@@ -40,7 +40,7 @@ class OffcanvasNavbar extends HTMLElement {
                   <a class="nav-link disabled" href="#">Vinyl Releases</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="#">LRC01 // 543ff, Jeroen Search</a>
+                  <a class="nav-link nav-link-margin" href="#LRC01">LRC01 // 543ff, Jeroen Search</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
