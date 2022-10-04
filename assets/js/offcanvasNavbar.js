@@ -20,6 +20,7 @@ class OffcanvasNavbar extends HTMLElement {
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
+          data-bs-backdrop="false"
         >
           <div class="offcanvas-header justify-content-end"> 
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>           
