@@ -31,37 +31,37 @@ class OffcanvasNavbar extends HTMLElement {
                 <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="/index.html/#about">About</a>
+                <a class="nav-link fw-bold" href="#about">About</a>
               </li>
-                <li class="nav-item">
+             <!-- <li class="nav-item">
                   <a class="nav-link fw-bold" href="#">Releases</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Vinyl Releases</a>
                 </li> -->
+               <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#Vinyl_Releases">Vinyl Releases</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#LRC01">LRC01 // 543ff, Jeroen Search</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="#">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="#">LRC03 // TBD</a>
+                  <a class="nav-link nav-link-margin" href="#LRC02">LRC02 // LENSON, Sculpturism, Miller & Keane</a>
                 </li>
                 <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Ambient Releases</a>
+                  <a class="nav-link nav-link-margin" href="#">LRC03 // TBD</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="#">LRCAMBIENT01 // 543ff</a>
+                  <a class="nav-link fw-bold" href="#Ambient_and_Digital">Ambient & Digital</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link nav-link-margin" href="#LRCAMBIENT01">LRCAMBIENT01 // 543ff</a>
+                </li>
+                 <!-- <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#">LRCAMBIENT02 // TBD</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#Podcasts">Podcasts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#">Podcasts</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link-margin" href="#">LRCPODCAST01 // 543ff</a>
+                  <a class="nav-link nav-link-margin" href="#LRCPODCAST01">LRCPODCAST01 // TBD</a>
                 </li>
             </div>
         </div>
