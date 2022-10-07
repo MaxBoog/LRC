@@ -37,7 +37,7 @@ class OffcanvasNavbar extends HTMLElement {
                   <a class="nav-link fw-bold" href="#">Releases</a>
                 </li> -->
                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#Vinyl_Releases">Vinyl Releases</a>
+                  <a class="nav-link fw-bold" href="#Releases">Releases</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link nav-link-margin" href="#LRC01">LRC01 // 543ff, Jeroen Search</a>
