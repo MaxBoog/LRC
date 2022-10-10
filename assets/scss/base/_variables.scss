@@ -20,12 +20,12 @@
 
 @font-face {
   font-family: "Eurostyle";
-  src: url("/assets/fonts/Eurostile Extended Regular.ttf") format("truetype");
+  src: url("/assets/fonts/Eurostile_Extended_Regular.ttf") format("truetype");
   font-display: swap;
 }
 
-$font-primary: "Open-sans";
-$font-secondary: "Courier";
+$font-primary: "Eurostyle";
+$font-secondary: "Eurostyle";
 // font sizes
 
 $font-xs: 0.7rem;
