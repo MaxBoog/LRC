@@ -24,8 +24,14 @@
   font-display: swap;
 }
 
-$font-primary: "Eurostyle";
-$font-secondary: "Eurostyle";
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+$font-primary: "Montserrat";
+$font-secondary: "Montserrat";
 // font sizes
 
 $font-xs: 0.7rem;
